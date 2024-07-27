@@ -10,6 +10,7 @@ client.connect(3000, 'localhost', () => {
     const buffer = Buffer.alloc(2);
     buffer.writeUInt8(1, 0);
     client.write(buffer);
+    // I am auto genrated
 });
 
 client.on('data', (data) => {
